@@ -1,0 +1,10 @@
+[tools]
+bun = "1.4.4"
+
+[tasks.test]
+description = "Highlight each sample and check each token's scope"
+run = "bun test"
+
+[tasks.typecheck]
+description = "Type-check the grammars and tests"
+run = "bun check"
